@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: MozkoE's Blog
 subtitle:
-description:
+description: gut
 author: Beile Peng
-language:
+language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://mozkoe.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

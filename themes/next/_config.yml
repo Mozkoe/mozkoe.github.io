@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Blog, Steam, Hexo, Digest"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -29,11 +29,11 @@ canonical: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  # categories: /categories
+  # about: /about
   archives: /archives
   tags: /tags
-  #commonweal: /404.html
+  # commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -76,7 +76,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
+  host: //fonts.useso.com
 
   # Global font settings used on <body> element.
   global:
@@ -141,7 +141,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: http://ww3.sinaimg.cn/large/75856a56gw1f4y9u1um9uj20d20d2wfw.jpg
 
 
 # Table Of Contents in the Sidebar
