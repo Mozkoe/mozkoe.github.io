@@ -9,6 +9,7 @@ description: gut
 author: Beile Peng
 language: zh-Hans
 timezone:
+since: 2014
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -44,9 +45,15 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
+# default_category: uncategorized
+default_category: 未分类
 category_map:
 tag_map:
+
+# Social links
+social:
+  github: https://github.com/Mozkoe
+  steam: https://steamcommunity.com/id/mozkoe/
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
