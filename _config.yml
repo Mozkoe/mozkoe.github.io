@@ -55,6 +55,10 @@ social:
   github: https://github.com/Mozkoe
   steam: https://steamcommunity.com/id/mozkoe/
 
+# Third part plugins
+# duoshuo comments
+duoshuo_shortname: mozkoe
+
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in

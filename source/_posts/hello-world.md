@@ -1,6 +1,7 @@
 ---
 title: Hello World
 categories: 未分类
+date: 2016-06-15 18:43:21
 tags: Hexo
 description: Welcome to Hexo! This is your very first post.
 ---
