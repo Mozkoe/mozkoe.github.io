@@ -2,9 +2,9 @@ language: node_js
 node_js: stable
 
 # Travis-CI Caching
-# cache:
-#   directories:
-#     - node_modules
+cache:
+  directories:
+    - node_modules
 
 # S: Build Lifecycle
 install:
@@ -20,6 +20,7 @@ script:
   - hexo d
 
 after_script:
+  - cp README.md ./public
   - cd ./public
   - git init
   - git config user.name "mozkoe"
