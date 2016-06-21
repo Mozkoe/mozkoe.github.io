@@ -50,14 +50,11 @@ default_category: 未分类
 category_map:
 tag_map:
 
-# Social links
-social:
-  Github: https://github.com/Mozkoe
-  Steam: https://steamcommunity.com/id/mozkoe/
-
 # Third part plugins
 # duoshuo comments
 duoshuo_shortname: mozkoe
+# duoshuo share
+# duoshuo_share: true
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
