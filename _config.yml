@@ -13,7 +13,7 @@ since: 2014
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://mozkoe.com
+url: https://mozkoe.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -52,7 +52,7 @@ tag_map:
 
 # Third part plugins
 # duoshuo comments
-duoshuo_shortname: mozkoe
+# duoshuo_shortname:
 # duoshuo share
 # duoshuo_share: true
 
