@@ -18,6 +18,7 @@ script:
   - hexo clean
   - hexo g
   - hexo d
+  - gulp
 
 after_script:
   - cp README.md ./public
