@@ -3,7 +3,7 @@ title: 使用 Travis CI 自动部署 Hexo 博客
 categories: 技术水
 date: 2016-06-17 18:43:21
 tags: Hexo
-description: Hexo 静态博客每次更新完，都需要手动生成静态文件，再手动部署到 Github 上，太麻烦了。希望能在同一个 repositories 的 master 分支存放生成的静态文件，在另一个分支存放 Hexo 项目文件。同时，能在项目文件 push 成功后，自动执行某些命令，并部署到 master 分支。
+description: Hexo 静态博客自动部署...
 ---
 
 ## Hexo 环境搭建
@@ -136,9 +136,9 @@ Hexo 生成的静态文件放置 public 目录下，这个目录其实是不需�
 /public/*
 ```
 
-暴露在 .travis.yml 文件中其他的私密信息（邮件地址，加密过的 key），能否也通过 Travis CI 的配置里的环境变量替代呢？
+暴露在 .travis.yml 文件中其他的私密信息（邮件地址，加密过的 key），也可以通过 Travis CI 的配置里的环境变量替代。
 
-自动构建的过程每次都需要 20s - 50s 左右，能否通过优化 Travis CI 自动执行的命令行，增加缓存，来加快每次构建、部署的速度呢？
+额外增加 gulp 工具组对全站静态资源进行压缩。
 
 
 

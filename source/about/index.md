@@ -1,6 +1,6 @@
 ---
-title: about
-date: 2016-06-17 17:36:42
+title: Just go go go
+date: 2018-01-25 13:17:42
 type: "about"
 categories: ""
 tags: ""
