@@ -585,7 +585,7 @@ comments:
 disqus:
   enable: true
   shortname: mozkoe
-  count: false
+  count: true
   lazyload: true
   #post_meta_order: 0
 
