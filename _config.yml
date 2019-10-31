@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: MozkoE's Blog
-subtitle: Lil' Ashes
-description: gut
+title: mozkoe's blog
+subtitle: lil' ashes
+description: ...
 author: mozkoe
-language: zh-Hans
-timezone:
+language: en
+timezone: Asia/Shanghai
 since: 2014
 
 # URL
@@ -45,8 +45,8 @@ highlight:
   tab_replace:
 
 # Category & Tag
-# default_category: uncategorized
-default_category: 未分类
+default_category: uncategorized
+# default_category: 未分类
 category_map:
 tag_map:
 
