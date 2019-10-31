@@ -12,7 +12,7 @@ install:
   - npm install
 
 # before_script:
- # - npm install -g gulp
+# - npm install -g gulp
 
 script:
   - hexo clean
@@ -35,6 +35,6 @@ branches:
   only:
     - gh-pages
 env:
- global:
-   - GH_REF: github.com/mozkoe/mozkoe.github.io.git
-   - secure: "C6fAAu6L8u4jvWwRqeZWUyGZwEf+RquIJiJaCKUwPNagiM9+CWpDLayPKDl+20OsqCH3xb2Eupv88Wm7EJvmBzQ+GMhKqSUCN9ZWTnxwGwptOeRJMBJxp4KrltKTLzEtgGtQos/NR4BezBhYk5ccTSlPWLOo6ydXJqDTh+Rfm4g2ec8THu9/PZVR4ptQJ8tNsZ/O1dCAv6rPO/xJPu3pkchVI4OWcAA+PQ+/g1HHS1GvMU1liw6SeL9i7WOfmNH0DEo4PZQZlEtOOQ3P1A8M8LHXTCXWtRrDpzcJqlXfyei8Hp5hTrLmqvUa5FN2MmAKwVD0ssJKLnHpbadCsTKxdNy11518rqh2DAkNFsNjANoqpcSSJY3a1ePgUtKpQTXKK4NgPg7vJwm1g94f34siVvvGezmjS6+gMb/+EBcmouCW5KuijZfEXNQkDPaovx7tOBRdaXvubkSNd55D4gfkNkmIpI65cXZJ5YoO00HEI+0qpVmLLHa5C5oU9GWhp1HZktaON4jqy8Uv57dsrbfe8UVpDG6YQPRCaJ4Bs/LiobvzfcN7vBG2Z6ev0HgXzpiSTdiJlJxj3nuQ8yX5qCAeECNCsM0RMev+uuop+ZcoFaf5HE2QGv/wC9+nRWHj5oJywNEtKf88D3L8y+MI9MpDuGUfrMburv6YTCXPQgU1qbk="
+  global:
+    - GH_REF: github.com/Mozkoe/mozkoe.github.io.git
+    - secure: "C6fAAu6L8u4jvWwRqeZWUyGZwEf+RquIJiJaCKUwPNagiM9+CWpDLayPKDl+20OsqCH3xb2Eupv88Wm7EJvmBzQ+GMhKqSUCN9ZWTnxwGwptOeRJMBJxp4KrltKTLzEtgGtQos/NR4BezBhYk5ccTSlPWLOo6ydXJqDTh+Rfm4g2ec8THu9/PZVR4ptQJ8tNsZ/O1dCAv6rPO/xJPu3pkchVI4OWcAA+PQ+/g1HHS1GvMU1liw6SeL9i7WOfmNH0DEo4PZQZlEtOOQ3P1A8M8LHXTCXWtRrDpzcJqlXfyei8Hp5hTrLmqvUa5FN2MmAKwVD0ssJKLnHpbadCsTKxdNy11518rqh2DAkNFsNjANoqpcSSJY3a1ePgUtKpQTXKK4NgPg7vJwm1g94f34siVvvGezmjS6+gMb/+EBcmouCW5KuijZfEXNQkDPaovx7tOBRdaXvubkSNd55D4gfkNkmIpI65cXZJ5YoO00HEI+0qpVmLLHa5C5oU9GWhp1HZktaON4jqy8Uv57dsrbfe8UVpDG6YQPRCaJ4Bs/LiobvzfcN7vBG2Z6ev0HgXzpiSTdiJlJxj3nuQ8yX5qCAeECNCsM0RMev+uuop+ZcoFaf5HE2QGv/wC9+nRWHj5oJywNEtKf88D3L8y+MI9MpDuGUfrMburv6YTCXPQgU1qbk="
